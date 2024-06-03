@@ -9,6 +9,7 @@ namespace IT3B_Kostky
  /// </summary>
  public partial class App : Application
  {
+
  }
 
 }

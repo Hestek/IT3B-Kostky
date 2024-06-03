@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Button x:Name="RollButton" Content="Roll Dice" Width="100" Click="RollButton_Click" Margin="0,0,0,20"/>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="0,20,0,0">
+                <TextBlock x:Name="Dice1TextBlock" FontSize="24" Margin="10,0"/>
+                <TextBlock x:Name="Dice2TextBlock" FontSize="24" Margin="10,0"/>
+                <TextBlock x:Name="Dice3TextBlock" FontSize="24" Margin="10,0"/>
+                <TextBlock x:Name="Dice4TextBlock" FontSize="24" Margin="10,0"/>
+                <TextBlock x:Name="Dice5TextBlock" FontSize="24" Margin="10,0"/>
+                <TextBlock x:Name="Dice6TextBlock" FontSize="24" Margin="10,0"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
